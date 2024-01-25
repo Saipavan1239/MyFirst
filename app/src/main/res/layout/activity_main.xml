@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6F1F1"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_margin="30dp"
+        android:text="➡Here are the questions for your Maths exam" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 1"
+        android:textSize="20dp"
+        android:layout_margin="25dp"
+        android:backgroundTint="#19A7CE "
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 2"
+        android:textSize="20dp"
+        android:layout_margin="25dp"
+        android:backgroundTint="#19A7CE "
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 3"
+        android:textSize="20dp"
+        android:layout_margin="25dp"
+        android:backgroundTint="#19A7CE "
+        />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="20dp"
+        android:layout_margin="75dp"
+        android:backgroundTint="#2B2A4C "
+        />
+
+
+</LinearLayout>
